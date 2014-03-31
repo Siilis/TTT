@@ -1,0 +1,5 @@
+Should re-do this modification by branching the mapvote on git
+	https://github.com/tyrantelf/gmod-mapvote
+
+Map cycle maps are listed in the Recent Maps text file
+	Should only contain maps that have been voted for
