@@ -175,6 +175,9 @@ function SWEP:GetHeadshotMultiplier(victim, dmginfo)
    local d = math.max(0, dist - 140)
    
    -- decay from 3.1 to 1 slowly as distance increases
-   return 1 + math.max(0, (2.1 - 0.002 * (d ^ 1.25)))
+   return 1 + math.max(0, (2.1 - 0.002 * (d ^ 1.25))) 
+-- I see it was changed from 3.1 to 2.1, I think? If I am right
+-- the 0.002 could be changed to something bigger, like 0.008. Or the 1.25 to something smaller. This could help.
+-- Needs to be tested though. Maybe a Testing event like we did couple of months ago.
 end
 
